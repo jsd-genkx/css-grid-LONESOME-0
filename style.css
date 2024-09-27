@@ -24,6 +24,8 @@ body {
   width: 80%;
   margin: 0 auto;
   border: 10px solid var(--clr-dark);
+  display: grid;
+  gap: 20-px;
 }
 
 .item {
@@ -32,4 +34,6 @@ body {
   font-weight: 700;
   color: var(--clr-light);
   border: 10px solid var(--clr-accent);
+  display: grid;
 }
+
